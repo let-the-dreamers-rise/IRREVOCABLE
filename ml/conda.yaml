@@ -1,0 +1,12 @@
+name: fcs-classifier-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - scikit-learn>=1.0.0
+    - joblib>=1.0.0
+    - numpy>=1.21.0
+    - azureml-inference-server-http

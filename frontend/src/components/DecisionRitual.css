@@ -1,0 +1,231 @@
+.ritual-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  padding: var(--space-lg);
+}
+
+.ritual-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+
+.ritual-instruction {
+  margin-bottom: var(--space-md);
+}
+
+.instruction-label {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--ash);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.ritual-prompt {
+  font-family: var(--font-reflection);
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--light);
+  line-height: 1.4;
+  margin-bottom: var(--space-lg);
+  letter-spacing: 0.01em;
+}
+
+.ritual-input-container {
+  width: 100%;
+  margin-bottom: var(--space-md);
+}
+
+.ritual-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--graphite);
+  border-radius: 2px;
+  padding: var(--space-md);
+  font-family: var(--font-reflection);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--light);
+  line-height: 1.7;
+  resize: none;
+  transition: all var(--transition-subtle);
+}
+
+.ritual-input::placeholder {
+  color: var(--ash);
+  font-style: italic;
+}
+
+.ritual-input:focus {
+  border-color: var(--ash);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.ritual-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ritual-meta {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--space-xs);
+}
+
+.char-count {
+  font-family: var(--font-system);
+  font-size: 0.7rem;
+  color: var(--ash);
+  letter-spacing: 0.1em;
+}
+
+/* Gravity Indicator */
+.gravity-indicator {
+  width: 100%;
+  margin-bottom: var(--space-lg);
+}
+
+.gravity-bar-container {
+  width: 100%;
+  height: 2px;
+  background: var(--charcoal);
+  position: relative;
+  margin-bottom: var(--space-sm);
+  overflow: hidden;
+}
+
+.gravity-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--ash) 0%,
+    var(--smoke) 50%,
+    var(--mist) 100%
+  );
+  transform-origin: left;
+}
+
+.gravity-indicator.accepted .gravity-bar {
+  background: linear-gradient(
+    90deg,
+    var(--ash) 0%,
+    rgba(100, 160, 120, 0.6) 100%
+  );
+}
+
+.gravity-indicator.rejected .gravity-bar {
+  background: linear-gradient(
+    90deg,
+    var(--ash) 0%,
+    rgba(160, 100, 100, 0.6) 100%
+  );
+}
+
+.gravity-threshold {
+  position: absolute;
+  left: 50%;
+  top: -4px;
+  width: 1px;
+  height: 10px;
+  background: var(--ash);
+}
+
+.gravity-label {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--smoke);
+  font-style: italic;
+}
+
+/* Submit Button */
+.ritual-submit-container {
+  margin-bottom: var(--space-lg);
+}
+
+.ritual-submit {
+  background: transparent;
+  border: 1px solid var(--graphite);
+  padding: var(--space-md) var(--space-xl);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  transition: all var(--transition-subtle);
+}
+
+.ritual-submit.active {
+  border-color: var(--ash);
+}
+
+.ritual-submit.active:hover {
+  border-color: var(--smoke);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ritual-submit.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.submit-text {
+  font-family: var(--font-system);
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--mist);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.submit-warning {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: var(--ash);
+  font-style: italic;
+}
+
+.ritual-guidance {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--ash);
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+/* Error Message */
+.ritual-error {
+  width: 100%;
+  margin-bottom: var(--space-md);
+  padding: var(--space-md);
+  background: rgba(160, 80, 80, 0.1);
+  border: 1px solid rgba(160, 80, 80, 0.3);
+  border-radius: 2px;
+}
+
+.error-message {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(200, 120, 120, 0.9);
+  line-height: 1.6;
+  margin: 0;
+}

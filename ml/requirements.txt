@@ -1,0 +1,8 @@
+# ML Training Requirements
+scikit-learn>=1.0.0
+joblib>=1.0.0
+numpy>=1.21.0
+
+# Azure ML SDK (for deployment)
+azure-ai-ml>=1.0.0
+azure-identity>=1.10.0

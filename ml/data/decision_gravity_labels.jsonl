@@ -1,0 +1,85 @@
+{"text": "I'm thinking about whether to get coffee or tea this morning", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "Should I watch Netflix or read a book tonight", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I can't decide what to have for lunch", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "Should I take the highway or back roads to work", "label": "trivial", "score": 0.08, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I'm deciding between two restaurants for dinner", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "Should I buy the blue shirt or the green one", "label": "trivial", "score": 0.08, "dimensions": {"irreversibility": 0.1, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I'm thinking about rearranging my living room furniture", "label": "trivial", "score": 0.10, "dimensions": {"irreversibility": 0.1, "life_impact": 0.1, "temporal_consequence": 0.1}}
+{"text": "Should I go to the gym today or tomorrow", "label": "trivial", "score": 0.08, "dimensions": {"irreversibility": 0.0, "life_impact": 0.1, "temporal_consequence": 0.0}}
+{"text": "I'm deciding which podcast to listen to on my commute", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "Should I reply to this email now or later", "label": "trivial", "score": 0.08, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.1}}
+{"text": "I'm thinking about getting a new phone case", "label": "trivial", "score": 0.10, "dimensions": {"irreversibility": 0.1, "life_impact": 0.0, "temporal_consequence": 0.1}}
+{"text": "Should I take a nap or power through the afternoon", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I'm deciding whether to order delivery or cook tonight", "label": "trivial", "score": 0.08, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "Should I start a new TV series or rewatch an old favorite", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I'm thinking about changing my desktop wallpaper", "label": "trivial", "score": 0.02, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I'm considering whether to adopt a pet", "label": "moderate", "score": 0.45, "dimensions": {"irreversibility": 0.5, "life_impact": 0.5, "temporal_consequence": 0.4}}
+{"text": "Should I move to a new apartment across town", "label": "moderate", "score": 0.48, "dimensions": {"irreversibility": 0.4, "life_impact": 0.5, "temporal_consequence": 0.5}}
+{"text": "I'm thinking about changing my hair color dramatically", "label": "low", "score": 0.25, "dimensions": {"irreversibility": 0.2, "life_impact": 0.2, "temporal_consequence": 0.3}}
+{"text": "Should I take on a side project at work", "label": "moderate", "score": 0.40, "dimensions": {"irreversibility": 0.3, "life_impact": 0.4, "temporal_consequence": 0.5}}
+{"text": "I'm considering joining a recreational sports league", "label": "low", "score": 0.30, "dimensions": {"irreversibility": 0.2, "life_impact": 0.3, "temporal_consequence": 0.4}}
+{"text": "Should I buy a new car or keep repairing my old one", "label": "moderate", "score": 0.50, "dimensions": {"irreversibility": 0.5, "life_impact": 0.5, "temporal_consequence": 0.5}}
+{"text": "I'm thinking about taking a solo vacation", "label": "low", "score": 0.35, "dimensions": {"irreversibility": 0.2, "life_impact": 0.4, "temporal_consequence": 0.4}}
+{"text": "Should I confront my friend about something that's been bothering me", "label": "moderate", "score": 0.45, "dimensions": {"irreversibility": 0.5, "life_impact": 0.4, "temporal_consequence": 0.4}}
+{"text": "I'm considering taking a certification course in my field", "label": "moderate", "score": 0.42, "dimensions": {"irreversibility": 0.3, "life_impact": 0.5, "temporal_consequence": 0.5}}
+{"text": "Should I start dating again after my breakup", "label": "moderate", "score": 0.48, "dimensions": {"irreversibility": 0.4, "life_impact": 0.5, "temporal_consequence": 0.5}}
+{"text": "I'm considering leaving my 15-year career to start my own company", "label": "weighty", "score": 0.92, "dimensions": {"irreversibility": 0.9, "life_impact": 1.0, "temporal_consequence": 0.9}}
+{"text": "Should I end my marriage after 10 years together", "label": "weighty", "score": 0.95, "dimensions": {"irreversibility": 0.9, "life_impact": 1.0, "temporal_consequence": 1.0}}
+{"text": "I'm thinking about moving to another country permanently", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.8, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I have children or remain child-free", "label": "weighty", "score": 0.98, "dimensions": {"irreversibility": 1.0, "life_impact": 1.0, "temporal_consequence": 1.0}}
+{"text": "I'm considering cutting off contact with my parents permanently", "label": "weighty", "score": 0.90, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I accept a job that requires relocating my family across the country", "label": "weighty", "score": 0.85, "dimensions": {"irreversibility": 0.8, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about coming out to my conservative family", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I leave my stable job to pursue my passion for art full-time", "label": "weighty", "score": 0.82, "dimensions": {"irreversibility": 0.8, "life_impact": 0.8, "temporal_consequence": 0.9}}
+{"text": "I'm considering donating a kidney to my sibling", "label": "weighty", "score": 0.95, "dimensions": {"irreversibility": 1.0, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I drop out of medical school after 3 years to change careers", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.8, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about ending a 20-year friendship over a fundamental disagreement", "label": "weighty", "score": 0.78, "dimensions": {"irreversibility": 0.8, "life_impact": 0.7, "temporal_consequence": 0.8}}
+{"text": "Should I tell my partner about something I did years ago that could end our relationship", "label": "weighty", "score": 0.85, "dimensions": {"irreversibility": 0.9, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "I'm considering leaving my religion after being raised in it my whole life", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.8, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I give up my dream of having biological children to adopt", "label": "weighty", "score": 0.90, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about retiring early and completely changing my lifestyle", "label": "weighty", "score": 0.80, "dimensions": {"irreversibility": 0.7, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I move back to care for my aging parents, leaving my career behind", "label": "weighty", "score": 0.85, "dimensions": {"irreversibility": 0.8, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm considering transitioning genders", "label": "weighty", "score": 0.95, "dimensions": {"irreversibility": 0.9, "life_impact": 1.0, "temporal_consequence": 1.0}}
+{"text": "Should I forgive my father for abandoning our family and reconnect with him", "label": "weighty", "score": 0.75, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "I'm thinking about selling the family home that's been in our family for generations", "label": "weighty", "score": 0.72, "dimensions": {"irreversibility": 0.9, "life_impact": 0.6, "temporal_consequence": 0.7}}
+{"text": "Should I pursue a relationship with someone my family strongly disapproves of", "label": "weighty", "score": 0.78, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "I'm considering quitting my PhD program after 4 years", "label": "weighty", "score": 0.82, "dimensions": {"irreversibility": 0.8, "life_impact": 0.8, "temporal_consequence": 0.9}}
+{"text": "Should I accept a promotion that will consume my life but secure my family's future", "label": "weighty", "score": 0.80, "dimensions": {"irreversibility": 0.7, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about whistleblowing on my company's unethical practices", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I give up my citizenship to live in another country permanently", "label": "weighty", "score": 0.90, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm considering ending life support for my terminally ill parent", "label": "weighty", "score": 0.98, "dimensions": {"irreversibility": 1.0, "life_impact": 1.0, "temporal_consequence": 0.9}}
+{"text": "Should I confront my abuser after years of silence", "label": "weighty", "score": 0.82, "dimensions": {"irreversibility": 0.8, "life_impact": 0.8, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about leaving my partner to be with someone else", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I reveal a family secret that could tear my family apart", "label": "weighty", "score": 0.85, "dimensions": {"irreversibility": 0.9, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "I'm considering giving up my successful career to become a stay-at-home parent", "label": "weighty", "score": 0.78, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.9}}
+{"text": "Should I pursue my dream even though it means disappointing everyone who believes in me", "label": "weighty", "score": 0.75, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "I'm thinking about breaking off my engagement weeks before the wedding", "label": "weighty", "score": 0.90, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "Should I take a massive pay cut to do work that feels meaningful", "label": "weighty", "score": 0.72, "dimensions": {"irreversibility": 0.6, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "I'm considering moving away from my support system to pursue an opportunity", "label": "weighty", "score": 0.70, "dimensions": {"irreversibility": 0.6, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "Should I tell my children the truth about their biological father", "label": "weighty", "score": 0.88, "dimensions": {"irreversibility": 0.9, "life_impact": 0.9, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about leaving everything behind to travel the world indefinitely", "label": "weighty", "score": 0.75, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "Should I choose my career over having a family", "label": "weighty", "score": 0.92, "dimensions": {"irreversibility": 0.9, "life_impact": 1.0, "temporal_consequence": 1.0}}
+{"text": "I'm considering going no-contact with my toxic sibling", "label": "weighty", "score": 0.75, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "Should I sacrifice my own dreams to support my partner's career", "label": "weighty", "score": 0.78, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.9}}
+{"text": "I'm thinking about admitting to a mistake that could cost me everything I've built", "label": "weighty", "score": 0.85, "dimensions": {"irreversibility": 0.9, "life_impact": 0.8, "temporal_consequence": 0.8}}
+{"text": "Should I leave my comfortable life to serve in a developing country", "label": "weighty", "score": 0.78, "dimensions": {"irreversibility": 0.7, "life_impact": 0.8, "temporal_consequence": 0.9}}
+{"text": "Should I get a tattoo", "label": "low", "score": 0.28, "dimensions": {"irreversibility": 0.4, "life_impact": 0.2, "temporal_consequence": 0.2}}
+{"text": "I'm thinking about dyeing my hair a bold color", "label": "trivial", "score": 0.15, "dimensions": {"irreversibility": 0.1, "life_impact": 0.1, "temporal_consequence": 0.2}}
+{"text": "Should I switch to a different gym", "label": "trivial", "score": 0.12, "dimensions": {"irreversibility": 0.1, "life_impact": 0.1, "temporal_consequence": 0.1}}
+{"text": "I'm considering getting a new hobby", "label": "trivial", "score": 0.18, "dimensions": {"irreversibility": 0.1, "life_impact": 0.2, "temporal_consequence": 0.2}}
+{"text": "Should I change my morning routine", "label": "trivial", "score": 0.10, "dimensions": {"irreversibility": 0.0, "life_impact": 0.1, "temporal_consequence": 0.2}}
+{"text": "I'm thinking about redecorating my bedroom", "label": "trivial", "score": 0.15, "dimensions": {"irreversibility": 0.1, "life_impact": 0.1, "temporal_consequence": 0.2}}
+{"text": "Should I try a new restaurant this weekend", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.0}}
+{"text": "I'm considering buying a new laptop", "label": "low", "score": 0.22, "dimensions": {"irreversibility": 0.2, "life_impact": 0.2, "temporal_consequence": 0.2}}
+{"text": "Should I learn a new language", "label": "low", "score": 0.32, "dimensions": {"irreversibility": 0.2, "life_impact": 0.4, "temporal_consequence": 0.4}}
+{"text": "I'm thinking about joining a book club", "label": "trivial", "score": 0.15, "dimensions": {"irreversibility": 0.1, "life_impact": 0.2, "temporal_consequence": 0.2}}
+{"text": "Should I upgrade my phone", "label": "trivial", "score": 0.12, "dimensions": {"irreversibility": 0.1, "life_impact": 0.1, "temporal_consequence": 0.1}}
+{"text": "I'm considering taking a cooking class", "label": "trivial", "score": 0.18, "dimensions": {"irreversibility": 0.1, "life_impact": 0.2, "temporal_consequence": 0.2}}
+{"text": "Should I start meditating", "label": "low", "score": 0.25, "dimensions": {"irreversibility": 0.1, "life_impact": 0.3, "temporal_consequence": 0.4}}
+{"text": "I'm thinking about getting a plant for my apartment", "label": "trivial", "score": 0.08, "dimensions": {"irreversibility": 0.1, "life_impact": 0.0, "temporal_consequence": 0.1}}
+{"text": "Should I subscribe to a streaming service", "label": "trivial", "score": 0.05, "dimensions": {"irreversibility": 0.0, "life_impact": 0.0, "temporal_consequence": 0.1}}
+{"text": "I'm considering changing my diet", "label": "low", "score": 0.35, "dimensions": {"irreversibility": 0.2, "life_impact": 0.4, "temporal_consequence": 0.5}}
+{"text": "Should I start running in the mornings", "label": "low", "score": 0.28, "dimensions": {"irreversibility": 0.1, "life_impact": 0.3, "temporal_consequence": 0.4}}
+{"text": "I'm thinking about deleting social media", "label": "low", "score": 0.38, "dimensions": {"irreversibility": 0.3, "life_impact": 0.4, "temporal_consequence": 0.4}}
+{"text": "Should I buy a standing desk", "label": "trivial", "score": 0.15, "dimensions": {"irreversibility": 0.1, "life_impact": 0.2, "temporal_consequence": 0.2}}
+{"text": "I'm considering volunteering on weekends", "label": "low", "score": 0.35, "dimensions": {"irreversibility": 0.2, "life_impact": 0.4, "temporal_consequence": 0.4}}

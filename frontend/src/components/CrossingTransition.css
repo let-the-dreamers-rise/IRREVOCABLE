@@ -1,0 +1,82 @@
+.crossing-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background: var(--void);
+  overflow: hidden;
+}
+
+.crossing-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid var(--ash);
+  background: radial-gradient(
+    circle,
+    rgba(120, 140, 180, 0.1) 0%,
+    transparent 70%
+  );
+}
+
+.crossing-text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.crossing-label {
+  font-family: var(--font-reflection);
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--light);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-md);
+}
+
+.crossing-line {
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--ash) 50%,
+    transparent 100%
+  );
+  margin-bottom: var(--space-md);
+}
+
+.crossing-subtext {
+  font-family: var(--font-system);
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--ash);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.crossing-particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.crossing-particle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--smoke);
+}
